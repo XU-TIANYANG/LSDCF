@@ -1,23 +1,23 @@
 # LSDCF
 Learning Low-rank and Sparse Discriminative Correlation Filters for Coarse-to-Fine Visual Object Tracking
 
-##Instruction for LSDCF Tracker:
+## Instruction for LSDCF Tracker:
 We use HOG [1][2], CN [3], and ResNet-50 [4][5] as our features. 
 Code modules refer to ECO [6] in feature extraction.
 
-###Dependencies:
+### Dependencies:
 MatConvNet [7], PDollar Toolbox [8], mtimesx and mexResize. 
 
-##Installation and Run:
+## Installation and Run:
 1. Run install.m file to compile the libraries.
 2. Run demo_LSDCF_single to illustrate selected sequences.
 Copy the tracker_LSDCF.m to the vot-workspace. (replace #LOCATION with the path of this folder)
 
-###Operating system:
+### Operating system:
 Successfully passed Ubuntu 14.04 LTS, Matlab R2018a, CPU Intel(R) Xeon(R) E5-2643 
 and Windows10 MATLAB 2016a, Inteli5 2.50GHz CPU, GTX 960 GPU
 
-###References:
+### References:
 [1] Henriques, João F., et al. "High-speed tracking with kernelized correlation filters." 
 IEEE Transactions on Pattern Analysis and Machine Intelligence 37.3 (2015): 583-596.
 [2] Dalal, Navneet, and Bill Triggs. "Histograms of oriented gradients for human detection." 
