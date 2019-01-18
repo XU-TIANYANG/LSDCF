@@ -9,8 +9,8 @@ Learning Low-rank and Sparse Discriminative Correlation Filters for Coarse-to-Fi
 MatConvNet [7], PDollar Toolbox [8], mtimesx and mexResize. 
 
 ## Installation and Run:
-- 1. Run install.m file to compile the libraries.
-- 2. Run demo_LSDCF_single to illustrate selected sequences.
+- Run install.m file to compile the libraries.
+- Run demo_LSDCF_single to illustrate selected sequences.
 Copy the tracker_LSDCF.m to the vot-workspace. (replace #LOCATION with the path of this folder)
 
 ### Operating system:
